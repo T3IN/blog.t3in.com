@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Vikram Mandal &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/author/vikram/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Modify Extend TYPO3 Calendar Base (cal)</title>
+		<link>/2019/typo3/modify-extend-typo3-calendar-base-cal/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Thu, 19 Sep 2019 04:44:35 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[cal]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=375</guid>
+
+					<description><![CDATA[The TYPO3 extension Calendar Base (extension key: cal) is one of the best coded extension I have come across in a long time. It was a great learning experience and the challenge was stimulating! About the extension Calendar Base extension is a full-featured online calendar system. And works with popular calendar systems such as Yahoo! [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The TYPO3 extension Calendar Base (extension key: cal)  is one of the best coded extension I have come across in a long time. It was a great learning experience and the challenge was stimulating!</p>
+
+
+
+<h4>About the extension</h4>
+
+
+
+<p>Calendar Base extension is a full-featured online calendar system. And works with popular calendar systems such as Yahoo! Calendar, Google Calendar, and Microsoft Outlook. In addition to these common calendar systems, Calendar Base is compatible with any other applications support the iCal standard data format.</p>
+
+
+
+<p>It shows calendar and events in various formats like days, weeks, months etc. Searches, personal calendar, RSS, exports and many more. Please see the <a rel="noreferrer noopener" aria-label="cal extension documentation (opens in a new tab)" href="https://docs.typo3.org/typo3cms/extensions/cal/stable/" target="_blank">cal extension documentation</a> for more details.</p>
+
+
+
+<h4>The magic inside</h4>
+
+
+
+<p>Unlike many TYPO3 extension cal is highly flexible in configuration and hence can be a bit of complicated job to configure it at times. Mostly of the things are implemented as service. And it has multiple controllers like the main controller, the frontend controller and the backend controller.</p>
+
+
+
+<h4>Extending Calendar Base (cal)</h4>
+
+
+
+<p>While working on extending Calendar Base (cal) we came across few approaches by other but most seemed novice or &#8220;dirty&#8221; implementations. Few used JavaScript to alter the frontend view and some used TypoScript as a work around. None seem to understand the beauty of code of this extension. Given the scarce information is certainly was a task that would take lot more effort.</p>
+
+
+
+<h4>Event search with multiple category selection with category stats</h4>
+
+
+
+<p>Getting inside the code of the extension and understanding it implementation was a great experience. We did a more graceful implementation of required functionality by create a new extension that extends Calendar Base (cal) &#8211; TYPO3 Extension and added new services to it. The approach makes it easier for cal extension to be upgraded to future versions as well. </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="950" height="894" src="https://blog.t3in.com/wp-content/uploads/2019/09/cal-search.jpg" alt="" class="wp-image-386" srcset="/wp-content/uploads/2019/09/cal-search.jpg 950w, /wp-content/uploads/2019/09/cal-search-300x282.jpg 300w, /wp-content/uploads/2019/09/cal-search-768x723.jpg 768w" sizes="(max-width: 950px) 100vw, 950px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to set the OG and DCTERMS meta tags in TYPO3</title>
+		<link>/2016/general/how-to-set-the-og-and-dcterms-meta-tags-in-typo3/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Wed, 18 May 2016 16:30:10 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[bootstrap_package]]></category>
+		<category><![CDATA[MetaSEO]]></category>
+		<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=218</guid>
+
+					<description><![CDATA[In case you are using the TYPO3 extension: bootstrap_package then set: page.meta.og:title.field = subtitle // title This would set the &#60; meta property=&#8221;og:title&#8221; &#8230; &#62; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">bootstrap_package</span> then set:</p>
+<pre><span class="keyword2">page</span><span class="ts-operator">.</span><span class="reserved ts-value">meta</span><span class="ts-operator">.</span><span class="other ts-value">og</span><span class="other ts-value">:title<span class="ts-operator">.</span><span class="reserved ts-value">field</span> <span class="ts-operator">=</span> subtitle <span class="other ts-value">/</span><span class="other ts-value">/</span> <span class="reserved ts-value">title
+</span></span></pre>
+<p>This would set the &lt; meta <span class="html-attribute-name">property</span>=&#8221;<span class="html-attribute-value">og:title</span>&#8221; &#8230; &gt; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle column to set better SEO optimized page title in TYPO3.</p>
+<p>&nbsp;</p>
+<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">metaseo</span> then set:</p>
+<pre>plugin.metaseo.metaTags.opengraph.title.field = tx_metaseo_pagetitle // title
+plugin.metaseo.metaTags.conf.title_page.field = tx_metaseo_pagetitle // title</pre>
+<p>This would set the DCTERMS.title and OG:title meta tags in TYPO3</p>
+<p>Contact us for full search engine optimization and social media optimization of your TYPO3 website.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tip: Quick file backup to be avoided</title>
+		<link>/2016/general/tip-quick-file-backup-to-be-avoided/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Fri, 22 Jan 2016 05:48:16 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Typo3 Tips]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=200</guid>
+
+					<description><![CDATA[Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;. This can lead to nasty situation. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;.</p>
+<p>This can lead to nasty situation. While you might be thinking it that the actual file &#8220;MyController.php&#8221; was being used by Typo3 it could very well be otherwise .i.e. Typo3 might just be using the copy &#8220;MyController (copy).php&#8221;!</p>
+<p>So be safe and always add a prefix to the backup file name.</p>
+<p>Cheers!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Developing AngularJS application as Typo3 extension</title>
+		<link>/2015/typo3-angularjs/developing-angularjs-application-as-typo3-extension/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2015 10:49:46 +0000</pubDate>
+				<category><![CDATA[AngularJS TYPO3]]></category>
+		<category><![CDATA[T3PM]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=179</guid>
+
+					<description><![CDATA[AngularJS has been around for a good amount of time and is well developed and a very mature platform. You may find more about AngularJS here. To get started with AngularJS coding see our post on &#8220;Getting started with AngualarJS&#8221; (coming soon). AngularJS brings in MVC architecture in to the static HTML world. This makes [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><figure id="attachment_189" aria-describedby="caption-attachment-189" style="width: 383px" class="wp-caption aligncenter"><a href="http://5etechnologies.com/wp-content/uploads/2015/11/AngularJS-large.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="wp-image-189 size-full" src="http://5etechnologies.com/wp-content/uploads/2015/11/AngularJS-large.png" alt="AngularJS-large" width="383" height="108" srcset="/wp-content/uploads/2015/11/AngularJS-large.png 383w, /wp-content/uploads/2015/11/AngularJS-large-300x85.png 300w" sizes="(max-width: 383px) 100vw, 383px" /></a><figcaption id="caption-attachment-189" class="wp-caption-text">AngularJS by Google</figcaption></figure></p>
+<p>AngularJS has been around for a good amount of time and is well developed and a very mature platform. You may find more about AngularJS <a href="http://angularjs.org/" target="_blank" rel="noopener">here</a>. To get started with AngularJS coding see our post on &#8220;Getting started with AngualarJS&#8221; (coming soon).</p>
+<p>AngularJS brings in MVC architecture in to the static HTML world. This makes it a &#8216;must have&#8217; in web applications. AngularJS gives you the feel of working on a desktop application although you are working online via Internet.</p>
+<p>One of the big disadvantage of AngularJS is that it is pure JavaScript. Now this fact creates a lot of complication when working with Typo3 and it&#8217;s template system.</p>
+<p>We would need to <span style="text-decoration: underline;">get the data from database via Typo3 API and sent it to AngularJS</span>. AngularJS then would use this data to build the client side interface.</p>
+<p>Disadvantage of AngularJS in Typo3:</p>
+<ul>
+<li>Get data from database convert to a suitable format that AngularJS can use.. this means lot of rudimentary work!</li>
+<li>We loose the Fluid template advantage. We can not use Fluid any more.</li>
+<li>..and there are few more</li>
+</ul>
+<p>But there are ways to make things to our advantage. In our following posts  you will see <strong>how to develop in a more effective way</strong>. We will be posting multiple posts related to using AngularJS in Typo3. So look for future posts on FiveE Technologies Blog.</p>
+<p>Some hints on what you can expect:</p>
+<ul>
+<li>We will be building a Project Management System using AngularJS and Typo3</li>
+<li>This would be a Typo3 extension</li>
+<li>We will see how we can call individual Typo3 actions from within AngularJS.</li>
+<li>We will introduce new AngularJS codes within the AngularJS scopes</li>
+<li>..and much more as we go on developing the Typo3 extnsion : T3PM &#8211; a Typo3 Project Management System based on AngularJS</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

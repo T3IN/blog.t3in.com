@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Typo3 Tips &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/typo3tips/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Tip: Quick file backup to be avoided</title>
+		<link>/2016/general/tip-quick-file-backup-to-be-avoided/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Fri, 22 Jan 2016 05:48:16 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Typo3 Tips]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=200</guid>
+
+					<description><![CDATA[Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;. This can lead to nasty situation. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;.</p>
+<p>This can lead to nasty situation. While you might be thinking it that the actual file &#8220;MyController.php&#8221; was being used by Typo3 it could very well be otherwise .i.e. Typo3 might just be using the copy &#8220;MyController (copy).php&#8221;!</p>
+<p>So be safe and always add a prefix to the backup file name.</p>
+<p>Cheers!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

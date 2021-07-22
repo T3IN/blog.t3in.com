@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>General &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/category/general/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Website in 5 minutes is harmful for business</title>
+		<link>/2019/general/website-in-5-minutes-is-harmful-for-business/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2019 10:39:01 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=331</guid>
+
+					<description><![CDATA[An website is your first impression and you need to get it right the first time. &#8230;and it is going to represent every thing that your business is. Can a website builder that claims to create a new website in 5 or 10 or few minutes do the following: Study your business and create a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote"><p>An website is your first impression and you need to get it right the first time. </p><cite>&#8230;and it is going to represent every thing that your business is.</cite></blockquote>
+
+
+
+<p>Can a website builder that claims to create a new website in  5 or 10 or few minutes do the following: </p>
+
+
+
+<ul><li>Study your business and create a feasible plan on short and long terms needs?</li><li>Do they know who are your target audience who could be your possible clients?</li><li>Can they find out your website visitor behavior and adapt your content, pages and website structure?</li><li>How good are they in understanding what people are looking for in search engines like Google, Bing, Yahoo and many other search engines</li><li>Can they take into account social media influence? </li><li>And do you really own the website? Can you move it to some better server? Are you stuck with it?</li><li>Can you use the best content management system for your website? </li><li>And the ready made template you might be choosing in going to same as another few thousand website owners! </li></ul>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="343" src="https://blog.t3in.com/wp-content/uploads/2019/04/quickfix-1024x343.jpg" alt="quick fix does not work" class="wp-image-348" srcset="/wp-content/uploads/2019/04/quickfix-1024x343.jpg 1024w, /wp-content/uploads/2019/04/quickfix-300x100.jpg 300w, /wp-content/uploads/2019/04/quickfix-768x257.jpg 768w, /wp-content/uploads/2019/04/quickfix.jpg 1169w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<blockquote class="wp-block-quote"><p>We as website developer would provide all the above and much more. Write to us to find out how we can get you better returns on your investment in website building.</p><cite>Read our post (upcoming) on what all an website in year 2019 must have.</cite></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TYPO3 Extensions and Accelerated Mobile Pages (AMP)</title>
+		<link>/2017/general/typo3-extensions-and-accelerated-mobile-pages-amp/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 12 Sep 2017 04:26:33 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[AMP]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[SEO]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Theme]]></category>
+		<guid isPermaLink="false">http://blog.t3in.com/?p=241</guid>
+
+					<description><![CDATA[Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library. So can we use TYPO3 extension while building an website in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library.</p>
+<p><strong>So can we use TYPO3 extension while building an website in AMP?</strong></p>
+<p>The answer is : Yes we can use most of the TYPO3 extensions but we not all extension. There are exceptions. Some TYPO3 extensions are are completely non-usable and some can be used after some alter in just templates and others might need extensive change in code level.</p>
+<p><strong>Why we can not use some TYPO3 extensions in websites built on AMP technology?</strong></p>
+<ul>
+<li>Google AMP has own HTML</li>
+<li>You can not use your JS Libraries</li>
+<li>Many tags like &lt;img src &gt; will not work</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><em>50% of browsing now happens on mobile devices. Don&#8217;t be left out. Get priority on Search engines. Get AMP on your site now.</em></strong></p>
+<p><strong><em>Contact at info@t3in.com for AMP on your site.</em></strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to set the OG and DCTERMS meta tags in TYPO3</title>
+		<link>/2016/general/how-to-set-the-og-and-dcterms-meta-tags-in-typo3/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Wed, 18 May 2016 16:30:10 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[bootstrap_package]]></category>
+		<category><![CDATA[MetaSEO]]></category>
+		<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=218</guid>
+
+					<description><![CDATA[In case you are using the TYPO3 extension: bootstrap_package then set: page.meta.og:title.field = subtitle // title This would set the &#60; meta property=&#8221;og:title&#8221; &#8230; &#62; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">bootstrap_package</span> then set:</p>
+<pre><span class="keyword2">page</span><span class="ts-operator">.</span><span class="reserved ts-value">meta</span><span class="ts-operator">.</span><span class="other ts-value">og</span><span class="other ts-value">:title<span class="ts-operator">.</span><span class="reserved ts-value">field</span> <span class="ts-operator">=</span> subtitle <span class="other ts-value">/</span><span class="other ts-value">/</span> <span class="reserved ts-value">title
+</span></span></pre>
+<p>This would set the &lt; meta <span class="html-attribute-name">property</span>=&#8221;<span class="html-attribute-value">og:title</span>&#8221; &#8230; &gt; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle column to set better SEO optimized page title in TYPO3.</p>
+<p>&nbsp;</p>
+<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">metaseo</span> then set:</p>
+<pre>plugin.metaseo.metaTags.opengraph.title.field = tx_metaseo_pagetitle // title
+plugin.metaseo.metaTags.conf.title_page.field = tx_metaseo_pagetitle // title</pre>
+<p>This would set the DCTERMS.title and OG:title meta tags in TYPO3</p>
+<p>Contact us for full search engine optimization and social media optimization of your TYPO3 website.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tip: Quick file backup to be avoided</title>
+		<link>/2016/general/tip-quick-file-backup-to-be-avoided/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Fri, 22 Jan 2016 05:48:16 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Typo3 Tips]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=200</guid>
+
+					<description><![CDATA[Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;. This can lead to nasty situation. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Many time during coding we need to same a copy of the code file. A quick backup of the work before a some may-go-wrong kind of situations. Do not just do a copy-paste of the file. In many systems like under CentOS the file gets saved as &#8220;MyController (copy).php&#8221;.</p>
+<p>This can lead to nasty situation. While you might be thinking it that the actual file &#8220;MyController.php&#8221; was being used by Typo3 it could very well be otherwise .i.e. Typo3 might just be using the copy &#8220;MyController (copy).php&#8221;!</p>
+<p>So be safe and always add a prefix to the backup file name.</p>
+<p>Cheers!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>FiveE(5E) Technologies India project reference portfolio</title>
+		<link>/2013/general/fivee5e-technologies-india-projects-reference-portfolio/</link>
+					<comments>/2013/general/fivee5e-technologies-india-projects-reference-portfolio/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 10 May 2013 09:37:44 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=27</guid>
+
+					<description><![CDATA[Here the link to screenshots of FiveE(5E) Technologies India&#8217;s latest and past of website delivered to our happy clients  http://fiveetech.com/fivee/portfolio/]]></description>
+										<content:encoded><![CDATA[<p>Here the link to screenshots of FiveE(5E) Technologies India&#8217;s latest and past of website delivered to our happy clients  <a href="http://fiveetech.com/fivee/portfolio/">http://fiveetech.com/fivee/portfolio/</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/general/fivee5e-technologies-india-projects-reference-portfolio/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What we do &#8211; software development and services in free open source software</title>
+		<link>/2013/general/what-we-do-software-development-and-services-in-free-open-source-software/</link>
+					<comments>/2013/general/what-we-do-software-development-and-services-in-free-open-source-software/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Wed, 10 Apr 2013 06:58:03 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Elgg]]></category>
+		<category><![CDATA[Magento]]></category>
+		<category><![CDATA[Service]]></category>
+		<category><![CDATA[Typo3]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=22</guid>
+
+					<description><![CDATA[FiveE Technologies is into software development and services. We provide services in Open source technologies like PHP, Java, Typo3 CMS, Magento ecommerce solution, and Elgg social networking software solution and in many other free open source software,]]></description>
+										<content:encoded><![CDATA[<p>FiveE Technologies is into software development and services. We provide services in Open source technologies like PHP, Java, Typo3 CMS, Magento ecommerce solution, and Elgg social networking software solution and in many other free open source software,</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/general/what-we-do-software-development-and-services-in-free-open-source-software/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>eeeee!</title>
+		<link>/2013/general/eeeee/</link>
+					<comments>/2013/general/eeeee/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 02 Apr 2013 09:06:12 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=9</guid>
+
+					<description><![CDATA[Yeah! it has been a rocking past 8 years and we shall rock the open source technology world even more! Rebooting to rocking future!]]></description>
+										<content:encoded><![CDATA[<p>Yeah! it has been a rocking past 8 years and we shall rock the open source technology world even more! Rebooting to rocking future!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/general/eeeee/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Welcome to FiveE Technologies Blog</title>
+		<link>/2013/general/hello-world/</link>
+					<comments>/2013/general/hello-world/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2013 08:56:59 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=1</guid>
+
+					<description><![CDATA[Welcome to FiveE Technologies India Blog. Although it had to be in place good 7 years ago .. yet it  feels good to add the missing part!]]></description>
+										<content:encoded><![CDATA[<p>Welcome to FiveE Technologies India Blog. Although it had to be in place good 7 years ago .. yet it  feels good to add the missing part!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/general/hello-world/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

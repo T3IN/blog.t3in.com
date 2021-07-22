@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/category/linux/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>CentOS Linux shutdown, reboot by non-admin non-root users</title>
+		<link>/2013/linux/centos-linux-shutdown-reboot-by-non-admin-non-root-users/</link>
+					<comments>/2013/linux/centos-linux-shutdown-reboot-by-non-admin-non-root-users/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2013 09:31:56 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[CentOS]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=55</guid>
+
+					<description><![CDATA[&#8220;sudo is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user&#8221; And we are going to use the same program to assign a user the right or access permission to shutdown or reboot a CentOS based computer system. Steps to allow non-root non-admin user [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p style="text-align: center;"><em>&#8220;sudo is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user&#8221;</em></p>
+<p>And we are going to use the same program to assign a user the right or access permission to shutdown or reboot a CentOS based computer system.</p>
+<h1>Steps to allow non-root non-admin user to shutdown or reboot a CentOS system:</h1>
+<ol>
+<li>Login as root in the terminal</li>
+<li><span style="line-height: 14px;">Create a new group on Centos named &#8216;developers&#8217; or you may assign the right to an existing group as well.</span></li>
+<li>Install Sudo by using the command: <strong>$ yum install sudo</strong></li>
+<li>Now edit the sudo configuration using the command:<strong> $ visudo</strong></li>
+<li>Look for some thing like <em>&#8216;# %users localhost=/sbin/shutdown now&#8217;<br />
+</em></li>
+<li>Press &#8216;i&#8217; or insert keyboard button of your keyboard to start editing the config file</li>
+<li>Below the above line add the following lines:
+<ol>
+<li><strong>%developers ALL=<em>/sbin/shutdown now</em></strong></li>
+<li><strong>%developers ALL=<em>/sbin/reboot</em></strong></li>
+</ol>
+</li>
+<li><span style="font-size: 1rem; line-height: 1.714285714;">now save the config file by doing:</span>
+<ol>
+<li>press &#8216;Esc&#8217; keyboard button</li>
+<li>then type without quotes: &#8220;:wq!&#8221;</li>
+<li>Hit return key</li>
+</ol>
+</li>
+</ol>
+<p>And you are done!</p>
+<p>Now any user of the group &#8216;developers&#8217; will be able to shutdown the system using the following command<br />
+<strong>$ sudo shutdown now</strong></p>
+<p>To reboot:<br />
+<strong>$ sudo reboot</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/linux/centos-linux-shutdown-reboot-by-non-admin-non-root-users/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

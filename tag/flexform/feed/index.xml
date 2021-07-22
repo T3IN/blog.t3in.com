@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Flexform &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/flexform/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Flexform and language problem</title>
+		<link>/2014/typo3/flexform-and-language-problem/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Mon, 14 Jul 2014 08:22:15 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[Flexform]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=152</guid>
+
+					<description><![CDATA[Problem: Flexform does not respect language settings. Detail: The website in built in TemplaVoila template engine on Typo3 4.x version. But the flexform  was not behaving as expected. Some issues were: What ever we put as value in default language field it would put the same value in the respective language field. In the frontend [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Problem: Flexform does not respect language settings.</p>
+<p>Detail: The website in built in TemplaVoila template engine on Typo3 4.x version. But the flexform  was not behaving as expected. Some issues were:</p>
+<ol>
+<li>What ever we put as value in default language field it would put the same value in the respective language field.</li>
+<li>In the frontend the Extbase based extension plugin would show only the value of the default language irrespective of the language selected.</li>
+</ol>
+<p>Search results related to the problem:</p>
+<ul>
+<li>A very same bug was posted in Typo3 bug reporter in 2013 but nothing was done about it &lt; link to Typo3 bug report &gt;</li>
+</ul>
+<p>Solution:</p>
+<ul>
+<li>Disabled multiple language in Flexform</li>
+<li>Placed the FE plugin in all the alternative language pages</li>
+<li>Added new Extbase code in the repository file of the Typo3 extension to raw access the database and get the translated record and show it in the frontend</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

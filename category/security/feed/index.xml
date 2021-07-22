@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/category/security/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>IP Blocking / banning software &#8211; Stop Bots!</title>
+		<link>/2013/security/ip-blocking-banning-software-stop-bots/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2013 06:06:09 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bots]]></category>
+		<category><![CDATA[Performance]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=124</guid>
+
+					<description><![CDATA[You got a slow website although you do not see much traffic in your google analytics. The most likely reason for this are bots, crawlers, spiders; all of which almost means the same ; these are machines visiting your website! The main objective of these are to index a website so as to provide better [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>You got a slow website although you do not see much traffic in your google analytics. The most likely reason for this are bots, crawlers, spiders; all of which almost means the same ; these are machines visiting your website!</p>
+<p>The main objective of these are to index a website so as to provide better search results to humans searching online. As every good things has evil so does they. Some are good bots and most are bad.</p>
+<p>Then there are text bots, image bots, ad bots and more perhaps. And there are in thousands of numbers. We recently built a piece of software to view hits from each ip address each hour. Below is a basic screen showing hits per hour from unique ips in a day.</p>
+<p>We can also do a reverse DNS lookup on the IP to find out if it is amongst any of the good bots that we let crawl our website. And we can also find the country of origin of the ip by doing a look up against a GEO database lookup and set access restriction based on country as well.</p>
+<p>More improvements in the form of patter of requests, requests to sensitive files etc are to trigger auto response and alerts are planned.</p>
+<p>[1] <a target="_blank" href="http://www.incapsula.com/the-incapsula-blog/item/393-know-your-top-10-bots" title="Good bots" rel="noopener">Top 10 Bots You Should Know About</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

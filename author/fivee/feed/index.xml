@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>FiveE Technologies &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/author/fivee/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Website in 5 minutes is harmful for business</title>
+		<link>/2019/general/website-in-5-minutes-is-harmful-for-business/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2019 10:39:01 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=331</guid>
+
+					<description><![CDATA[An website is your first impression and you need to get it right the first time. &#8230;and it is going to represent every thing that your business is. Can a website builder that claims to create a new website in 5 or 10 or few minutes do the following: Study your business and create a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote"><p>An website is your first impression and you need to get it right the first time. </p><cite>&#8230;and it is going to represent every thing that your business is.</cite></blockquote>
+
+
+
+<p>Can a website builder that claims to create a new website in  5 or 10 or few minutes do the following: </p>
+
+
+
+<ul><li>Study your business and create a feasible plan on short and long terms needs?</li><li>Do they know who are your target audience who could be your possible clients?</li><li>Can they find out your website visitor behavior and adapt your content, pages and website structure?</li><li>How good are they in understanding what people are looking for in search engines like Google, Bing, Yahoo and many other search engines</li><li>Can they take into account social media influence? </li><li>And do you really own the website? Can you move it to some better server? Are you stuck with it?</li><li>Can you use the best content management system for your website? </li><li>And the ready made template you might be choosing in going to same as another few thousand website owners! </li></ul>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="343" src="https://blog.t3in.com/wp-content/uploads/2019/04/quickfix-1024x343.jpg" alt="quick fix does not work" class="wp-image-348" srcset="/wp-content/uploads/2019/04/quickfix-1024x343.jpg 1024w, /wp-content/uploads/2019/04/quickfix-300x100.jpg 300w, /wp-content/uploads/2019/04/quickfix-768x257.jpg 768w, /wp-content/uploads/2019/04/quickfix.jpg 1169w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<blockquote class="wp-block-quote"><p>We as website developer would provide all the above and much more. Write to us to find out how we can get you better returns on your investment in website building.</p><cite>Read our post (upcoming) on what all an website in year 2019 must have.</cite></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ajax Mail Subscription TYPO3 Extension</title>
+		<link>/2019/typo3/ajax-mail-subscription-typo3-extension/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Thu, 04 Apr 2019 14:54:56 +0000</pubDate>
+				<category><![CDATA[Extension]]></category>
+		<category><![CDATA[TYPO3]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=321</guid>
+
+					<description><![CDATA[Subscription to newsletters is an essential functionality of an website. The functionality of newsletter greatly helps to stay in touch with interested visitors to the website over time. When subscribing to a website we as visitors would expect things to be quick and simple. Ajax greatly helps keeping things simple by completing the functionality quickly [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Subscription to newsletters is an essential functionality of an website. The functionality of newsletter greatly helps to stay in touch with interested visitors to the website over time. </p>
+
+
+
+<p>When subscribing to a website we as visitors would expect things to be quick and simple. Ajax greatly helps keeping things simple by completing the functionality quickly without page re-load.</p>
+
+
+
+<p>One of the popular Ajax Mail Subscription TYPO3 Extension was ods_ajaxmailsubscription. But unfortunately it is not maintained any longer. This brought up the opportunity to to give back some thing to the community.</p>
+
+
+
+<p>A new Ajax based Mail Subscription TYPO3 Extension was developed and released to the TER. I am thankful to the sponsor of the extension for selecting us as the developer of this extension.</p>
+
+
+
+<p>The extension re-used many part and functionality of the ods_ajaxmailsubscription extension and added improvements to it.</p>
+
+
+
+<p>Some improvements were feature like use of proven cryptographically secure pseudo random number generator:</p>
+
+
+
+<pre class="wp-block-preformatted">
+    /**
+     * Generate a random string, using a cryptographically secure 
+     * pseudorandom number generator
+     * 
+     * @param int $length      How many characters do we want?
+     * @param string $keyspace A string of all possible characters
+     *                         to select from
+     * @return string
+     */
+    function random_str($length, $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+        $pieces = [];
+        $max = mb_strlen($keyspace, '8bit') - 1;
+        for ($i = 0; $i < $length; ++$i) {
+            $pieces []= $keyspace[random_int(0, $max)];
+        }
+        return implode('', $pieces);
+    }
+</pre>
+
+
+
+<p>Other features were:</p>
+
+
+
+<ul><li>Auto show of popup based on Bootstrap </li><li>Disable popup based on user interest</li><li>configurable popup disable time </li><li>Email validations</li><li>Action Url expiry time settings</li><li>Multi lingual </li></ul>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Gridelements not showing any output in t3sbootstrap</title>
+		<link>/2018/typo3/gridelements-not-showing-any-output-in-t3sbootstrap/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 20 Nov 2018 12:12:56 +0000</pubDate>
+				<category><![CDATA[Extension]]></category>
+		<category><![CDATA[TYPO3]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=277</guid>
+
+					<description><![CDATA[T3sbootstrap is a very popular TYPO3 extension. It can build bootstrap based websites in TYPO3 CMS. Gridelements is another very useful and popular extension. BothT3sbootstrap and Gridelements TYPO3 extensions are available for free in TYPO3 Extension Repository (TER). &#160; with Gridelements TYPO3 extension one can create multiple layouts for your website. Each grid layout form  the TYPO3 backend layout. Gridelements is [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>T3sbootstrap is a very popular TYPO3 extension. It can build bootstrap based websites in TYPO3 CMS. Gridelements is another very useful and popular extension. BothT3sbootstrap and Gridelements TYPO3 extensions are available for free in TYPO3 Extension Repository (TER).</p>
+<p>&nbsp;</p>
+<p><a href="https://blog.t3in.com/wp-content/uploads/2018/11/Gridelements-BE.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="alignleft wp-image-279 size-medium" src="https://blog.t3in.com/wp-content/uploads/2018/11/Gridelements-BE-300x222.png" alt="" width="300" height="222" srcset="/wp-content/uploads/2018/11/Gridelements-BE-300x222.png 300w, /wp-content/uploads/2018/11/Gridelements-BE-768x570.png 768w, /wp-content/uploads/2018/11/Gridelements-BE-1024x759.png 1024w, /wp-content/uploads/2018/11/Gridelements-BE.png 1076w" sizes="(max-width: 300px) 100vw, 300px" /></a>with Gridelements TYPO3 extension one can create multiple layouts for your website. Each grid layout form  the TYPO3 backend layout. Gridelements is very flexible and agile to use.</p>
+<p>This image show use of Gridelements inside the TYPO3 CMS in backend layout.</p>
+<p>T3sbootstrap uses Gridelements as dependence which means it uses the features of the extension i.e depends on it.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="https://blog.t3in.com/wp-content/uploads/2018/11/gridelements-fe-debug-output.png" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="size-medium wp-image-286 alignright" src="https://blog.t3in.com/wp-content/uploads/2018/11/gridelements-fe-debug-output-300x152.png" alt="" width="300" height="152" srcset="/wp-content/uploads/2018/11/gridelements-fe-debug-output-300x152.png 300w, /wp-content/uploads/2018/11/gridelements-fe-debug-output-768x389.png 768w, /wp-content/uploads/2018/11/gridelements-fe-debug-output-1024x519.png 1024w, /wp-content/uploads/2018/11/gridelements-fe-debug-output.png 1599w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>New layouts created using Gridelements can be used in existing/predefined T3sbootstrap layout templates. Please see  above image. After adding contents elements to the newly added columns of  Gridelements the content would show up in  the frontend view of the page of website. But things are not always smooth at times.  At times you may see only debug outputs or no output at all or error messages instead of the contents as shown in this image</p>
+<p>&nbsp;</p>
+<p>This is because of a quite and rare situation in TYPO3 CMS. This is rather very small thing to miss but can be hard to figure out. The situation gets more bad because of absence of  T3sbootstrap extension documentation in English there is not wide support from non-Germans. It is only avaibale in German (at the time of writing). This causes lot of difficultly in getting started with T3sbootstrap extension and effects its popularity world wide.</p>
+<p><strong>Solution:</strong></p>
+<p>All you need to do it make sure that in the main template&#8217;s include static section  Gridelements record is above T3sbootstrap&#8217;s record. See the below image for proper understanding.</p>
+<p><a href="https://blog.t3in.com/wp-content/uploads/2018/11/include-static-main.png" data-rel="lightbox-image-2" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="size-medium wp-image-303 aligncenter" src="https://blog.t3in.com/wp-content/uploads/2018/11/include-static-main-300x210.png" alt="" width="300" height="210" srcset="/wp-content/uploads/2018/11/include-static-main-300x210.png 300w, /wp-content/uploads/2018/11/include-static-main-768x537.png 768w, /wp-content/uploads/2018/11/include-static-main-1024x716.png 1024w, /wp-content/uploads/2018/11/include-static-main.png 1081w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Google AMP site done in TYPO3</title>
+		<link>/2017/typo3/google-amp-site-done-in-typo3/</link>
+					<comments>/2017/typo3/google-amp-site-done-in-typo3/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 27 Oct 2017 05:27:12 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[AMP]]></category>
+		<category><![CDATA[Google]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=264</guid>
+
+					<description><![CDATA[We have successfully implemented our Google AMP version of T3IN.com few weeks back. All Google AMP validation passed with zero errors or warnings. The AMP site can be viewed directly from the AMP Url shared below. The look and layout is mostly same. We had to make adjustments in few content element types. Although it [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We have successfully implemented our Google AMP version of T3IN.com few weeks back. All Google AMP validation passed with zero errors or warnings. The AMP site can be viewed directly from the AMP Url shared below.</p>
+<p>The look and layout is mostly same. We had to make adjustments in few content element types. Although it is a work-in-progress yet it is fair to say it is presentable to the world. The AMP version of T3IN.com has been submitted to Google for indexing.</p>
+<p>There were few extensions and content elements that we could not use, about which we talk in another post and if there is any probable alternate solution we could find.</p>
+<p>From our huge experience of website building TYPO3 still is our most preferred Open Source CMS and seems like it would stay so for a long time.</p>
+<p>AMP is very much implementable in TYPO3 CMS ! see <a href="https://amp.t3in.com/" target="_blank" rel="noopener noreferrer">Google AMP implementation in TYPO3 for T3IN.COM</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017/typo3/google-amp-site-done-in-typo3/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TYPO3 Extensions and Accelerated Mobile Pages (AMP)</title>
+		<link>/2017/general/typo3-extensions-and-accelerated-mobile-pages-amp/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 12 Sep 2017 04:26:33 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[AMP]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[SEO]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Theme]]></category>
+		<guid isPermaLink="false">http://blog.t3in.com/?p=241</guid>
+
+					<description><![CDATA[Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library. So can we use TYPO3 extension while building an website in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library.</p>
+<p><strong>So can we use TYPO3 extension while building an website in AMP?</strong></p>
+<p>The answer is : Yes we can use most of the TYPO3 extensions but we not all extension. There are exceptions. Some TYPO3 extensions are are completely non-usable and some can be used after some alter in just templates and others might need extensive change in code level.</p>
+<p><strong>Why we can not use some TYPO3 extensions in websites built on AMP technology?</strong></p>
+<ul>
+<li>Google AMP has own HTML</li>
+<li>You can not use your JS Libraries</li>
+<li>Many tags like &lt;img src &gt; will not work</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><em>50% of browsing now happens on mobile devices. Don&#8217;t be left out. Get priority on Search engines. Get AMP on your site now.</em></strong></p>
+<p><strong><em>Contact at info@t3in.com for AMP on your site.</em></strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bootstrap carousel : enable pause on mouseover</title>
+		<link>/2016/templates-themes/bootstrap-carousel-enable-pause-on-mouseover/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Sat, 09 Apr 2016 11:03:12 +0000</pubDate>
+				<category><![CDATA[Templates-Themes]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Theme]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=213</guid>
+
+					<description><![CDATA[TYPO3 has many readily available templates/themes. One of the most popular is the  bootstrap package. It is an installable extension module. Download free TYPO3 templates and themes from TYPO3 bootstrap package. One of the thing which I need to do was to make the slider pause on mouseover. By default it keeps sliding and mouseover had to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>TYPO3 has many readily available templates/themes. One of the most popular is the  bootstrap package. It is an installable extension module. Download free TYPO3 templates and themes from <a href="https://typo3.org/extensions/repository/" target="_blank" rel="noopener">TYPO3 bootstrap package</a>.</p>
+<p>One of the thing which I need to do was to make the slider pause on mouseover. By default it keeps sliding and mouseover had to effect on it. The solution to fix this is:</p>
+<p>Add the following JavaScript to the bottom:</p>
+<pre>$('.carousel-3').carousel({
+    "pause":"false"
+});</pre>
+<p>&nbsp;</p>
+<p>Here &#8220;carousel-3&#8221; is the content id of the carousel.</p>
+<p>To include your JavaScript in the end of TYPO3 page at the following Typoscript code:</p>
+<pre><span class="keyword2">page</span><span class="ts-operator">.</span><span class="other ts-value">includeJSFooter</span> <span class="other ts-value">{</span>
+<span class="whitespace">  </span><span class="other">common</span><span class="ts-operator">-</span><span class="other">js</span> <span class="ts-operator">=</span> <span class="other ts-value">fileadmin</span><span class="other ts-value">/templates</span><span class="other ts-value">/js</span><span class="other ts-value">/common</span><span class="ts-operator">.</span><span class="other ts-value">js</span>
+<span class="whitespace">  </span><span class="ts-operator curly-bracket">}</span></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Post tx_News to Facebook Social Media</title>
+		<link>/2016/extension/tx_news-to-facebook-social-media/</link>
+					<comments>/2016/extension/tx_news-to-facebook-social-media/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2016 07:31:38 +0000</pubDate>
+				<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=205</guid>
+
+					<description><![CDATA[The newest news extension on Typo3 is the &#8220;News&#8221; extension. This extension also referred as tx_news some times is build in the latest Typo3 Extbase and fluid development platform. The older news extension was &#8220;tt_news&#8221;. The latest news extension did not ad the functionality to post news items on social media. So we have developed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The newest news extension on Typo3 is the &#8220;News&#8221; extension. This extension also referred as tx_news some times is build in the latest Typo3 Extbase and fluid development platform. The older news extension was &#8220;tt_news&#8221;.</p>
+<p>The latest news extension did not ad the functionality to post news items on social media. So we have developed a Typo3 module to post post news items to social media and email them as well to subscribers. News items can be posted to Facebook pages directly from Typo3 backend administration section. The module also allows to post direct content with url to social media.</p>
+<p>The new extension is fully compatible with search engine optioned Urls of news any other Typo3 Seo features or extensions like realurl.<a href="/wp-content/uploads/2016/03/socialPost-1.png" rel="attachment wp-att-210" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="alignnone size-thumbnail wp-image-210" src="/wp-content/uploads/2016/03/socialPost-1-150x150.png" alt="socialPost-1" width="150" height="150" srcset="/wp-content/uploads/2016/03/socialPost-1-150x150.png 150w, /wp-content/uploads/2016/03/socialPost-1-60x60.png 60w" sizes="(max-width: 150px) 100vw, 150px" /></a><a href="/wp-content/uploads/2016/03/socialPost-2.png" rel="attachment wp-att-209" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="alignnone size-thumbnail wp-image-209" src="/wp-content/uploads/2016/03/socialPost-2-150x150.png" alt="socialPost-2" width="150" height="150" srcset="/wp-content/uploads/2016/03/socialPost-2-150x150.png 150w, /wp-content/uploads/2016/03/socialPost-2-60x60.png 60w" sizes="(max-width: 150px) 100vw, 150px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/extension/tx_news-to-facebook-social-media/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>T3PM &#8211; A Typo3 AngularJS Project management system</title>
+		<link>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/</link>
+					<comments>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2016 15:34:48 +0000</pubDate>
+				<category><![CDATA[AngularJS TYPO3]]></category>
+		<category><![CDATA[T3PM]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=196</guid>
+
+					<description><![CDATA[We have first beta release of the Typo3 CMS extension. This extension is optimized to work on latest version of Typo3 7.6 LTS with bootstrap_package template extension.]]></description>
+										<content:encoded><![CDATA[<p>We have first beta release of the Typo3 CMS extension. This extension is optimized to work on latest version of Typo3 7.6 LTS with bootstrap_package template extension.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Typo3 Debugger Utility</title>
+		<link>/2015/typo3/typo3-debugger-utility/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Thu, 26 Feb 2015 11:49:17 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=162</guid>
+
+					<description><![CDATA[In case of Extbase Utility Debugger not found you may try: In Typo3 7.x use: \TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($newsItem); In Typo3 6.x use: Tx_Extbase_DebuggerUtility::var_dump($newsItem);]]></description>
+										<content:encoded><![CDATA[<p>In case of Extbase Utility Debugger not found you may try:</p>
+<p>In Typo3 7.x use:</p>
+<pre>\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($newsItem);</pre>
+<p>In Typo3 6.x use:</p>
+<pre>Tx_Extbase_DebuggerUtility::var_dump($newsItem);</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Flexform and language problem</title>
+		<link>/2014/typo3/flexform-and-language-problem/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Mon, 14 Jul 2014 08:22:15 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[Flexform]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=152</guid>
+
+					<description><![CDATA[Problem: Flexform does not respect language settings. Detail: The website in built in TemplaVoila template engine on Typo3 4.x version. But the flexform  was not behaving as expected. Some issues were: What ever we put as value in default language field it would put the same value in the respective language field. In the frontend [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Problem: Flexform does not respect language settings.</p>
+<p>Detail: The website in built in TemplaVoila template engine on Typo3 4.x version. But the flexform  was not behaving as expected. Some issues were:</p>
+<ol>
+<li>What ever we put as value in default language field it would put the same value in the respective language field.</li>
+<li>In the frontend the Extbase based extension plugin would show only the value of the default language irrespective of the language selected.</li>
+</ol>
+<p>Search results related to the problem:</p>
+<ul>
+<li>A very same bug was posted in Typo3 bug reporter in 2013 but nothing was done about it &lt; link to Typo3 bug report &gt;</li>
+</ul>
+<p>Solution:</p>
+<ul>
+<li>Disabled multiple language in Flexform</li>
+<li>Placed the FE plugin in all the alternative language pages</li>
+<li>Added new Extbase code in the repository file of the Typo3 extension to raw access the database and get the translated record and show it in the frontend</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

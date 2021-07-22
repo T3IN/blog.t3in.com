@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bootstrap_package &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/bootstrap_package/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>How to set the OG and DCTERMS meta tags in TYPO3</title>
+		<link>/2016/general/how-to-set-the-og-and-dcterms-meta-tags-in-typo3/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Wed, 18 May 2016 16:30:10 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[bootstrap_package]]></category>
+		<category><![CDATA[MetaSEO]]></category>
+		<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=218</guid>
+
+					<description><![CDATA[In case you are using the TYPO3 extension: bootstrap_package then set: page.meta.og:title.field = subtitle // title This would set the &#60; meta property=&#8221;og:title&#8221; &#8230; &#62; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">bootstrap_package</span> then set:</p>
+<pre><span class="keyword2">page</span><span class="ts-operator">.</span><span class="reserved ts-value">meta</span><span class="ts-operator">.</span><span class="other ts-value">og</span><span class="other ts-value">:title<span class="ts-operator">.</span><span class="reserved ts-value">field</span> <span class="ts-operator">=</span> subtitle <span class="other ts-value">/</span><span class="other ts-value">/</span> <span class="reserved ts-value">title
+</span></span></pre>
+<p>This would set the &lt; meta <span class="html-attribute-name">property</span>=&#8221;<span class="html-attribute-value">og:title</span>&#8221; &#8230; &gt; value to the page field value of subtitle is available else it would use the page title field value. By default it is set to use the title column only. You can use the susbtitle column to set better SEO optimized page title in TYPO3.</p>
+<p>&nbsp;</p>
+<p>In case you are using the TYPO3 extension: <span style="text-decoration: underline;">metaseo</span> then set:</p>
+<pre>plugin.metaseo.metaTags.opengraph.title.field = tx_metaseo_pagetitle // title
+plugin.metaseo.metaTags.conf.title_page.field = tx_metaseo_pagetitle // title</pre>
+<p>This would set the DCTERMS.title and OG:title meta tags in TYPO3</p>
+<p>Contact us for full search engine optimization and social media optimization of your TYPO3 website.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

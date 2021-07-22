@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Template &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/template/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>TYPO3 Extensions and Accelerated Mobile Pages (AMP)</title>
+		<link>/2017/general/typo3-extensions-and-accelerated-mobile-pages-amp/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 12 Sep 2017 04:26:33 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[AMP]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[SEO]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Theme]]></category>
+		<guid isPermaLink="false">http://blog.t3in.com/?p=241</guid>
+
+					<description><![CDATA[Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library. So can we use TYPO3 extension while building an website in [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Accelerated Mobile Pages (AMP) is a technology to have pages load quickly on mobile devices. AMP is backed by industry heavy weights like Google, Twitter, WordPress, several publishers and other companies. The challenge in short is that it has own HTML and JavaScript library.</p>
+<p><strong>So can we use TYPO3 extension while building an website in AMP?</strong></p>
+<p>The answer is : Yes we can use most of the TYPO3 extensions but we not all extension. There are exceptions. Some TYPO3 extensions are are completely non-usable and some can be used after some alter in just templates and others might need extensive change in code level.</p>
+<p><strong>Why we can not use some TYPO3 extensions in websites built on AMP technology?</strong></p>
+<ul>
+<li>Google AMP has own HTML</li>
+<li>You can not use your JS Libraries</li>
+<li>Many tags like &lt;img src &gt; will not work</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><em>50% of browsing now happens on mobile devices. Don&#8217;t be left out. Get priority on Search engines. Get AMP on your site now.</em></strong></p>
+<p><strong><em>Contact at info@t3in.com for AMP on your site.</em></strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bootstrap carousel : enable pause on mouseover</title>
+		<link>/2016/templates-themes/bootstrap-carousel-enable-pause-on-mouseover/</link>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Sat, 09 Apr 2016 11:03:12 +0000</pubDate>
+				<category><![CDATA[Templates-Themes]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Template]]></category>
+		<category><![CDATA[Theme]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=213</guid>
+
+					<description><![CDATA[TYPO3 has many readily available templates/themes. One of the most popular is the  bootstrap package. It is an installable extension module. Download free TYPO3 templates and themes from TYPO3 bootstrap package. One of the thing which I need to do was to make the slider pause on mouseover. By default it keeps sliding and mouseover had to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>TYPO3 has many readily available templates/themes. One of the most popular is the  bootstrap package. It is an installable extension module. Download free TYPO3 templates and themes from <a href="https://typo3.org/extensions/repository/" target="_blank" rel="noopener">TYPO3 bootstrap package</a>.</p>
+<p>One of the thing which I need to do was to make the slider pause on mouseover. By default it keeps sliding and mouseover had to effect on it. The solution to fix this is:</p>
+<p>Add the following JavaScript to the bottom:</p>
+<pre>$('.carousel-3').carousel({
+    "pause":"false"
+});</pre>
+<p>&nbsp;</p>
+<p>Here &#8220;carousel-3&#8221; is the content id of the carousel.</p>
+<p>To include your JavaScript in the end of TYPO3 page at the following Typoscript code:</p>
+<pre><span class="keyword2">page</span><span class="ts-operator">.</span><span class="other ts-value">includeJSFooter</span> <span class="other ts-value">{</span>
+<span class="whitespace">  </span><span class="other">common</span><span class="ts-operator">-</span><span class="other">js</span> <span class="ts-operator">=</span> <span class="other ts-value">fileadmin</span><span class="other ts-value">/templates</span><span class="other ts-value">/js</span><span class="other ts-value">/common</span><span class="ts-operator">.</span><span class="other ts-value">js</span>
+<span class="whitespace">  </span><span class="ts-operator curly-bracket">}</span></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

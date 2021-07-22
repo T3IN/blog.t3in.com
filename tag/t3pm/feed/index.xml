@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>T3PM &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/t3pm/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>T3PM &#8211; A Typo3 AngularJS Project management system</title>
+		<link>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/</link>
+					<comments>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2016 15:34:48 +0000</pubDate>
+				<category><![CDATA[AngularJS TYPO3]]></category>
+		<category><![CDATA[T3PM]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=196</guid>
+
+					<description><![CDATA[We have first beta release of the Typo3 CMS extension. This extension is optimized to work on latest version of Typo3 7.6 LTS with bootstrap_package template extension.]]></description>
+										<content:encoded><![CDATA[<p>We have first beta release of the Typo3 CMS extension. This extension is optimized to work on latest version of Typo3 7.6 LTS with bootstrap_package template extension.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/typo3-angularjs/t3pm-a-typo3-angularjs-project-management-system/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Developing AngularJS application as Typo3 extension</title>
+		<link>/2015/typo3-angularjs/developing-angularjs-application-as-typo3-extension/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2015 10:49:46 +0000</pubDate>
+				<category><![CDATA[AngularJS TYPO3]]></category>
+		<category><![CDATA[T3PM]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=179</guid>
+
+					<description><![CDATA[AngularJS has been around for a good amount of time and is well developed and a very mature platform. You may find more about AngularJS here. To get started with AngularJS coding see our post on &#8220;Getting started with AngualarJS&#8221; (coming soon). AngularJS brings in MVC architecture in to the static HTML world. This makes [&#8230;]]]></description>
+										<content:encoded><![CDATA[<figure id="attachment_189" aria-describedby="caption-attachment-189" style="width: 383px" class="wp-caption aligncenter"><a href="http://5etechnologies.com/wp-content/uploads/2015/11/AngularJS-large.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="wp-image-189 size-full" src="http://5etechnologies.com/wp-content/uploads/2015/11/AngularJS-large.png" alt="AngularJS-large" width="383" height="108" srcset="/wp-content/uploads/2015/11/AngularJS-large.png 383w, /wp-content/uploads/2015/11/AngularJS-large-300x85.png 300w" sizes="(max-width: 383px) 100vw, 383px" /></a><figcaption id="caption-attachment-189" class="wp-caption-text">AngularJS by Google</figcaption></figure>
+<p>AngularJS has been around for a good amount of time and is well developed and a very mature platform. You may find more about AngularJS <a href="http://angularjs.org/" target="_blank" rel="noopener">here</a>. To get started with AngularJS coding see our post on &#8220;Getting started with AngualarJS&#8221; (coming soon).</p>
+<p>AngularJS brings in MVC architecture in to the static HTML world. This makes it a &#8216;must have&#8217; in web applications. AngularJS gives you the feel of working on a desktop application although you are working online via Internet.</p>
+<p>One of the big disadvantage of AngularJS is that it is pure JavaScript. Now this fact creates a lot of complication when working with Typo3 and it&#8217;s template system.</p>
+<p>We would need to <span style="text-decoration: underline;">get the data from database via Typo3 API and sent it to AngularJS</span>. AngularJS then would use this data to build the client side interface.</p>
+<p>Disadvantage of AngularJS in Typo3:</p>
+<ul>
+<li>Get data from database convert to a suitable format that AngularJS can use.. this means lot of rudimentary work!</li>
+<li>We loose the Fluid template advantage. We can not use Fluid any more.</li>
+<li>..and there are few more</li>
+</ul>
+<p>But there are ways to make things to our advantage. In our following posts  you will see <strong>how to develop in a more effective way</strong>. We will be posting multiple posts related to using AngularJS in Typo3. So look for future posts on FiveE Technologies Blog.</p>
+<p>Some hints on what you can expect:</p>
+<ul>
+<li>We will be building a Project Management System using AngularJS and Typo3</li>
+<li>This would be a Typo3 extension</li>
+<li>We will see how we can call individual Typo3 actions from within AngularJS.</li>
+<li>We will introduce new AngularJS codes within the AngularJS scopes</li>
+<li>..and much more as we go on developing the Typo3 extnsion : T3PM &#8211; a Typo3 Project Management System based on AngularJS</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

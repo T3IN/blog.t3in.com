@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cal &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/cal/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Modify Extend TYPO3 Calendar Base (cal)</title>
+		<link>/2019/typo3/modify-extend-typo3-calendar-base-cal/</link>
+		
+		<dc:creator><![CDATA[Vikram Mandal]]></dc:creator>
+		<pubDate>Thu, 19 Sep 2019 04:44:35 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[cal]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=375</guid>
+
+					<description><![CDATA[The TYPO3 extension Calendar Base (extension key: cal) is one of the best coded extension I have come across in a long time. It was a great learning experience and the challenge was stimulating! About the extension Calendar Base extension is a full-featured online calendar system. And works with popular calendar systems such as Yahoo! [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The TYPO3 extension Calendar Base (extension key: cal)  is one of the best coded extension I have come across in a long time. It was a great learning experience and the challenge was stimulating!</p>
+
+
+
+<h4>About the extension</h4>
+
+
+
+<p>Calendar Base extension is a full-featured online calendar system. And works with popular calendar systems such as Yahoo! Calendar, Google Calendar, and Microsoft Outlook. In addition to these common calendar systems, Calendar Base is compatible with any other applications support the iCal standard data format.</p>
+
+
+
+<p>It shows calendar and events in various formats like days, weeks, months etc. Searches, personal calendar, RSS, exports and many more. Please see the <a rel="noreferrer noopener" aria-label="cal extension documentation (opens in a new tab)" href="https://docs.typo3.org/typo3cms/extensions/cal/stable/" target="_blank">cal extension documentation</a> for more details.</p>
+
+
+
+<h4>The magic inside</h4>
+
+
+
+<p>Unlike many TYPO3 extension cal is highly flexible in configuration and hence can be a bit of complicated job to configure it at times. Mostly of the things are implemented as service. And it has multiple controllers like the main controller, the frontend controller and the backend controller.</p>
+
+
+
+<h4>Extending Calendar Base (cal)</h4>
+
+
+
+<p>While working on extending Calendar Base (cal) we came across few approaches by other but most seemed novice or &#8220;dirty&#8221; implementations. Few used JavaScript to alter the frontend view and some used TypoScript as a work around. None seem to understand the beauty of code of this extension. Given the scarce information is certainly was a task that would take lot more effort.</p>
+
+
+
+<h4>Event search with multiple category selection with category stats</h4>
+
+
+
+<p>Getting inside the code of the extension and understanding it implementation was a great experience. We did a more graceful implementation of required functionality by create a new extension that extends Calendar Base (cal) &#8211; TYPO3 Extension and added new services to it. The approach makes it easier for cal extension to be upgraded to future versions as well. </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="950" height="894" src="https://blog.t3in.com/wp-content/uploads/2019/09/cal-search.jpg" alt="" class="wp-image-386" srcset="/wp-content/uploads/2019/09/cal-search.jpg 950w, /wp-content/uploads/2019/09/cal-search-300x282.jpg 300w, /wp-content/uploads/2019/09/cal-search-768x723.jpg 768w" sizes="(max-width: 950px) 100vw, 950px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/google/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Google AMP site done in TYPO3</title>
+		<link>/2017/typo3/google-amp-site-done-in-typo3/</link>
+					<comments>/2017/typo3/google-amp-site-done-in-typo3/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 27 Oct 2017 05:27:12 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[TYPO3 SEO]]></category>
+		<category><![CDATA[AMP]]></category>
+		<category><![CDATA[Google]]></category>
+		<guid isPermaLink="false">https://blog.t3in.com/?p=264</guid>
+
+					<description><![CDATA[We have successfully implemented our Google AMP version of T3IN.com few weeks back. All Google AMP validation passed with zero errors or warnings. The AMP site can be viewed directly from the AMP Url shared below. The look and layout is mostly same. We had to make adjustments in few content element types. Although it [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We have successfully implemented our Google AMP version of T3IN.com few weeks back. All Google AMP validation passed with zero errors or warnings. The AMP site can be viewed directly from the AMP Url shared below.</p>
+<p>The look and layout is mostly same. We had to make adjustments in few content element types. Although it is a work-in-progress yet it is fair to say it is presentable to the world. The AMP version of T3IN.com has been submitted to Google for indexing.</p>
+<p>There were few extensions and content elements that we could not use, about which we talk in another post and if there is any probable alternate solution we could find.</p>
+<p>From our huge experience of website building TYPO3 still is our most preferred Open Source CMS and seems like it would stay so for a long time.</p>
+<p>AMP is very much implementable in TYPO3 CMS ! see <a href="https://amp.t3in.com/" target="_blank" rel="noopener noreferrer">Google AMP implementation in TYPO3 for T3IN.COM</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017/typo3/google-amp-site-done-in-typo3/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

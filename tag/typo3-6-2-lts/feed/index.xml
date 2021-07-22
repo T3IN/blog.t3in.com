@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Typo3 6.2 LTS &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/typo3-6-2-lts/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Typo3 6.2 LTS : admin not accessible ; Uninstall broken non-compatible extension</title>
+		<link>/2014/typo3/typo3-6-2-lts-admin-not-accessible-uninstall-broken-non-compatible-extension/</link>
+					<comments>/2014/typo3/typo3-6-2-lts-admin-not-accessible-uninstall-broken-non-compatible-extension/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Tue, 08 Apr 2014 14:12:14 +0000</pubDate>
+				<category><![CDATA[TYPO3]]></category>
+		<category><![CDATA[Typo3]]></category>
+		<category><![CDATA[Typo3 6.2 LTS]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=138</guid>
+
+					<description><![CDATA[We recently upgraded one Typo3 implemented website to Typo3 6.2 Long Term Support (LTS) version. Typo3 6.2 LTS has a all new Typo3 Install Tool which by the way also includes &#8220;Core Updater&#8221; much like in WordPress CMS but we talk about it in another blog. So lets go to the point. To uninstall the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>We recently upgraded one Typo3 implemented website to Typo3 6.2 Long Term Support (LTS) version. Typo3 6.2 LTS has a all new Typo3 Install Tool which by the way also includes &#8220;Core Updater&#8221; much like in WordPress CMS but we talk about it in another blog. So lets go to the point.</p>
+<p>To uninstall the broken or non-compatible extension in Typo3 admin follow these simple steps:</p>
+<ul>
+<li>In file /typo3conf/PackageStates.php make the &#8216;state&#8217; =&gt; &#8216;inactive&#8217; against the extension you want to uninstall</li>
+<li>then Delete all cache files under /typo3temp/Cache/</li>
+</ul>
+<p>And you are done! Reload your Typo3 admin now.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2014/typo3/typo3-6-2-lts-admin-not-accessible-uninstall-broken-non-compatible-extension/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

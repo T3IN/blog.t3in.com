@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mobile &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/mobile/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Mon, 14 Jul 2014 08:38:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Magento mobile skin/theme design and development</title>
+		<link>/2013/magento/magento-mobile-skin-design-and-development/</link>
+					<comments>/2013/magento/magento-mobile-skin-design-and-development/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Mon, 13 May 2013 07:49:54 +0000</pubDate>
+				<category><![CDATA[Magento]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=32</guid>
+
+					<description><![CDATA[Latest development at FiveE Tech is design and development of mobile interface. The project started with study of usability practices for mobiles apps and research docs related to interaction of users and mobile devices. It is certainly a more difficult task then doing websites of screen size of 1024 pixel. The top challenge is delivering effective user experience in a much [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Latest development at FiveE Tech is design and development of mobile interface. The project started with study of usability practices for mobiles apps and research docs related to interaction of users and mobile devices. It is certainly a more difficult task then doing websites of screen size of 1024 pixel. The top challenge is delivering effective user experience in a much limited sized visual space and yet bring in the comport of mobiles.</p>
+<p>The development needs some basic tools like emulators and testing tools to do development work from within the comport zone of a desktop machine. So here are few useful links:</p>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Download link to Opera Emulator from http://get.geo.opera.com/pub/opera/sdlbream/1210/Opera_Mobile_Emulator_12.1_Windows.exe</span><span style="line-height: 1.714285714; font-size: 1rem;"><br />
+</span></li>
+<li>Simulate mobile browser in desktop using Chrome extension &#8220;Ultimate User Agent Switcher&#8221;. Get it from <a href="https://chrome.google.com/webstore/detail/ultimate-user-agent-switc/ljfpjnehmoiabkefmnjegmpdddgcdnpo?hl=en-US">https://chrome.google.com/webstore/detail/ultimate-user-agent-switc/ljfpjnehmoiabkefmnjegmpdddgcdnpo?hl=en-US</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><em>Up coming next: Working with Long press events in Mobile devices</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/magento/magento-mobile-skin-design-and-development/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

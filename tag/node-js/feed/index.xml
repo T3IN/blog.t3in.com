@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Node.js &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/node-js/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Fri, 12 Jul 2013 10:03:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>solution for Collaborative editing in real-time</title>
+		<link>/2013/productivity-tools/collaborative-editing-in-real-time/</link>
+					<comments>/2013/productivity-tools/collaborative-editing-in-real-time/#respond</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2013 05:11:18 +0000</pubDate>
+				<category><![CDATA[Productivity tools]]></category>
+		<category><![CDATA[Etherpad]]></category>
+		<category><![CDATA[Node.js]]></category>
+		<category><![CDATA[Real Time]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=51</guid>
+
+					<description><![CDATA[FiveE technologies is working with clients from many different countries and being present is person is certainly not feasible nether for our clients nor for us. We have the internet advantage. We have been using emails, chats, skype call for communication. But needed more.  A tool to collaborate on specifications, designs, documentations, chat meetings with [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FiveE technologies is working with clients from many different countries and being present is person is certainly not feasible nether for our clients nor for us. We have the internet advantage. We have been using emails, chats, skype call for communication. But needed more.  A tool to collaborate on specifications, designs, documentations, chat meetings with our clients. <span style="line-height: 1.714285714; font-size: 1rem;">And it has to be an open sourced application and we came across:</span></p>
+<p style="text-align: center;"><strong><em><span style="line-height: 1.714285714; font-size: 1rem;"> Etherpad : </span><span style="line-height: 1.714285714; font-size: 1rem;">an Open Source online editor providing collaborative editing in really real-time.</span></em></strong></p>
+<ul>
+<li>it allows multiple users to edit one document in real time</li>
+<li>Each edit can be be easily identified</li>
+<li>it supports plugins and integration with multiple other open source application</li>
+<li>It works on Linux, Windows, Macs</li>
+<li>is powered by Node.js</li>
+<li>and you may use any of the free public server hosting etherpad server listed at <a href="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite">https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite</a></li>
+</ul>
+<p>Etherpad website: <a href="http://etherpad.org/">http://etherpad.org/<br />
+E</a>therpad Git link: <a href="https://github.com/ether/etherpad-lite">https://github.com/ether/etherpad-lite</a><br />
+<a href="http://etherpad.org/">E</a>therpad public server instances <a href="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite">https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/productivity-tools/collaborative-editing-in-real-time/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

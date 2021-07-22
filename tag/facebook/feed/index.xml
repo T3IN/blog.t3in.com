@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Facebook &#8211; Blog : T3IN : FiveE : 5E Technologies</title>
+	<atom:link href="/tag/facebook/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>TYPO3 Blog T3IN : FiveE</description>
+	<lastBuildDate>Thu, 22 Jul 2021 08:24:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Post tx_News to Facebook Social Media</title>
+		<link>/2016/extension/tx_news-to-facebook-social-media/</link>
+					<comments>/2016/extension/tx_news-to-facebook-social-media/#comments</comments>
+		
+		<dc:creator><![CDATA[FiveE Technologies]]></dc:creator>
+		<pubDate>Wed, 23 Mar 2016 07:31:38 +0000</pubDate>
+				<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[SEO]]></category>
+		<guid isPermaLink="false">http://5etechnologies.com/?p=205</guid>
+
+					<description><![CDATA[The newest news extension on Typo3 is the &#8220;News&#8221; extension. This extension also referred as tx_news some times is build in the latest Typo3 Extbase and fluid development platform. The older news extension was &#8220;tt_news&#8221;. The latest news extension did not ad the functionality to post news items on social media. So we have developed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The newest news extension on Typo3 is the &#8220;News&#8221; extension. This extension also referred as tx_news some times is build in the latest Typo3 Extbase and fluid development platform. The older news extension was &#8220;tt_news&#8221;.</p>
+<p>The latest news extension did not ad the functionality to post news items on social media. So we have developed a Typo3 module to post post news items to social media and email them as well to subscribers. News items can be posted to Facebook pages directly from Typo3 backend administration section. The module also allows to post direct content with url to social media.</p>
+<p>The new extension is fully compatible with search engine optioned Urls of news any other Typo3 Seo features or extensions like realurl.<a href="/wp-content/uploads/2016/03/socialPost-1.png" rel="attachment wp-att-210" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="alignnone size-thumbnail wp-image-210" src="/wp-content/uploads/2016/03/socialPost-1-150x150.png" alt="socialPost-1" width="150" height="150" srcset="/wp-content/uploads/2016/03/socialPost-1-150x150.png 150w, /wp-content/uploads/2016/03/socialPost-1-60x60.png 60w" sizes="(max-width: 150px) 100vw, 150px" /></a><a href="/wp-content/uploads/2016/03/socialPost-2.png" rel="attachment wp-att-209" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="alignnone size-thumbnail wp-image-209" src="/wp-content/uploads/2016/03/socialPost-2-150x150.png" alt="socialPost-2" width="150" height="150" srcset="/wp-content/uploads/2016/03/socialPost-2-150x150.png 150w, /wp-content/uploads/2016/03/socialPost-2-60x60.png 60w" sizes="(max-width: 150px) 100vw, 150px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/extension/tx_news-to-facebook-social-media/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
